@@ -298,6 +298,11 @@ header nav ul li:first-child a {
 	width: 100%;
 }
 
+.products li img:hover {
+    opacity: .7;
+    transition: opacity .3s ease-out;
+}
+
 .products li .variations {
 	display: flex;
 	margin: 8px 14px;
